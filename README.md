@@ -48,9 +48,9 @@ Before you click the "Complete Assessment" button on the Learning Platform, add 
 
 4. Can you describe, in detail, the algorithm that is in the `main` module?
    > The main module dynamically generates the HTML for the application and displays in on the webpage by inserting it into the DOM.
-   -The code starts by assigning the HTML element with the id container to a variable called mainContainer. Then it builds the applicationHTML string. The <h1> element provides a page title, then the article element creates a container with a class named details to be easily styled or referenced. Inside the article element a section is created with a class that styles as a column to display details about Kids <section class="detail--column list details__kids">
+   -The code starts by assigning the HTML element with the id container to a variable called mainContainer. Then it builds the applicationHTML string. The h1 element provides a page title, then the article element creates a container with a class named details to be easily styled or referenced. Inside the article element a section is created with a class that styles as a column to display details about Kids \*section class="detail--column list details__kids"*/
     ( the h2 provides the Kids header title) 
-   ${Kids()} is a template literal that calls the Kids function and inserts the output into the HTML string so the web browser will display the information from the Kids function
+   /*${Kids()}*/ is a template literal that calls the Kids function and inserts the output into the HTML string so the web browser will display the information from the Kids function
    The same set up is repeated for Celebrities in its own section element
    lines 13,17, and 18 close the sections and article elements
    - Then a new article element is created for the pairing content. It creates the heading line with h2 Pairings, then uses template literal again to output the Pairings function information
